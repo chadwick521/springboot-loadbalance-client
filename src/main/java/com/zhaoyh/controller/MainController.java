@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
  * @author zhaoyh
  */
 @RestController
+@RequestMapping("/main")
 public class MainController {
 
     @Autowired
